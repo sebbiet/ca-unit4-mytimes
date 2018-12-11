@@ -76,3 +76,40 @@ section {
 .column.small {
   width: 240px;
 }
+
+/* News Image Styles */
+
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image-content {
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.headline-story .image-content {
+  background-image: url(../images/img-story-main.png);
+  font-size: 40px;
+  text-align: left;
+  margin-top: 0;
+}
+
+.flat-earth.image-content {
+  background-image: url(../images/img-story-2.png);
+}
+
+.camera-shock.image-content {
+  background-image: url(../images/img-story-3.png);
+}
+
+.mindcontrol-cats .image-content {
+  background-image: url(../images/img-story-2.png);  
+}
