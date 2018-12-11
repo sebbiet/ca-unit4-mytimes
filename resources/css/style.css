@@ -6,6 +6,8 @@ body {
   margin: 0;
 }
 
+/* Page Heading and Navigation Styles */
+
 header {
   display: flex;
   align-items: center;
@@ -42,4 +44,35 @@ a {
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+/* News Content Styles */
+
+section {
+  border: 1px solid red;
+}
+
+.content {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 110px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
