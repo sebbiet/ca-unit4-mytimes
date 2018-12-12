@@ -136,3 +136,25 @@ section {
 .narrative {
   margin-top: 16px;
 }
+
+/* News Bites */
+.news_bites {
+  display: flex;
+  flex-direction: column;
+}
+
+.news_bites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.news_bites span {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 8px 24px;
+}
