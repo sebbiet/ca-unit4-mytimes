@@ -49,13 +49,13 @@ nav span {
 /* News Content Styles */
 
 section {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
 }
 
 .content {
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
+  width: 1232px;
+  margin: 0 auto 78px auto;
   padding-top: 110px;
 }
 
@@ -97,6 +97,7 @@ section {
 
 .headline-story .image-content {
   background-image: url(../images/img-story-main.png);
+  width: 630px;
   font-size: 40px;
   text-align: left;
   margin-top: 0;
@@ -111,5 +112,27 @@ section {
 }
 
 .mindcontrol-cats .image-content {
-  background-image: url(../images/img-story-2.png);  
+  background-image: url(../images/img-story-2.png);
+}
+
+/* News Flex Styling */
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.stories .text-content {
+  height: 250px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.narrative {
+  margin-top: 16px;
 }
